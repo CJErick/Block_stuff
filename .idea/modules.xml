@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/block.iml" filepath="$PROJECT_DIR$/.idea/block.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/google-blockly-1.20181105.0-0-gd3a7324/google-blockly-d3a7324/.idea/google-blockly-d3a7324.iml" filepath="$USER_HOME$/Downloads/google-blockly-1.20181105.0-0-gd3a7324/google-blockly-d3a7324/.idea/google-blockly-d3a7324.iml" />
+    </modules>
+  </component>
+</project>

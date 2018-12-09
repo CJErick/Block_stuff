@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    script(src = '/javascripts/blockly_compressed.js')
+    script(src = '/javascripts/blocks_compressed.js')
+
+    script(src = '/msg/js/en.js')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+    div(id ='blocklyDiv', style='height: 480px; width: 600px;')
+        | <xml id="toolbox" style="display: none">
+        | <block type="controls_if"></block>
+        | <block type="logic_compare"></block>
+        | <block type="controls_repeat_ext"></block>
+        | <block type="math_number">
+        | <field name="NUM">123</field>
+        | </block>
+        | <block type="math_arithmetic"></block>
+        |<block type="text"></block>
+        |<block type="text_print"></block>
+        | </xml>
+    script(src = '/javascripts/blocksc.js')
